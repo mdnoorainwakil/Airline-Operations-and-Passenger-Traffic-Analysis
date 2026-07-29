@@ -1,134 +1,93 @@
-# ✈️ Airline Operations & Passenger Traffic Analysis
+# ✈️ Airline Operations and Passenger Traffic Analysis
 
 ## 📌 Project Overview
-
-This project presents an end-to-end Airline Operations and Passenger Traffic Analysis using **MySQL** and **Power BI**. The objective is to analyze passenger traffic, airport performance, flight operations, seat utilization, route efficiency, and travel trends by transforming raw flight data into meaningful business insights.
-
----
-
-## 🎯 Business Objectives
-
-- Analyze passenger traffic across airports and routes.
-- Identify the busiest and least utilized flight routes.
-- Measure seat utilization and passenger load factor.
-- Track yearly and monthly passenger trends.
-- Evaluate airport operational performance.
-- Discover underperforming routes and seasonal travel patterns.
+This project analyzes airline operational performance and passenger traffic using **MySQL** for data analysis and **Power BI** for interactive dashboard development. The dataset contains nearly **16,000+ flight records** with information such as passengers, seats, flights, distance, origin and destination airports, cities, and travel dates. SQL was used to clean, aggregate, and analyze the data using joins, CTEs, window functions, date functions, and aggregation techniques. The processed insights were then visualized in Power BI to build an interactive business dashboard for monitoring passenger demand, airport performance, route efficiency, and operational trends.
 
 ---
 
 ## 🛠️ Tech Stack
-
-- **MySQL**
-- **SQL**
-- **Power BI**
-- **DAX**
-- **Power Query**
-
----
-
-## 📊 Dataset Information
-
-The dataset contains **50,000 flight records** with the following attributes:
-
-- Origin Airport
-- Destination Airport
-- Origin City
-- Destination City
-- Passengers
-- Seats
-- Flights
-- Distance
-- Flight Date
-- Airport Coordinates
-- Population Data
+- MySQL
+- Power BI
+- SQL
+- DAX
+- Power Query
 
 ---
 
-## 💡 SQL Analysis
+## 📊 Dashboard 1 – Executive Overview
 
-The SQL analysis includes multiple business-oriented queries covering:
+This dashboard provides a high-level summary of airline operations through KPI cards, yearly passenger trends, airport filters, and passenger traffic comparisons between origin and destination airports.
 
-- Passenger Traffic Analysis
-- Airport Performance Analysis
-- Route Performance Analysis
+![Executive Dashboard](images/executive_overview.png)
+
+---
+
+## 📈 Dashboard 2 – Route Performance Analysis
+
+This dashboard focuses on route-level analysis, including top passenger routes, total flights by route, airport distribution on the map, and the relationship between route distance and flight activity.
+
+![Route Performance Dashboard](images/route_performance.png)
+
+---
+
+## 📉 Dashboard 3 – Advanced Analytics
+
+The final dashboard presents advanced business insights such as average passengers per flight, airport ranking over time, passenger demand versus seat capacity, and the relationship between city population and passenger traffic.
+
+![Advanced Analytics Dashboard](images/advanced_analytics.png)
+
+---
+
+# 🗄️ SQL Analysis
+
+The analytical layer of this project was developed entirely in MySQL. SQL queries were written to answer real-world business questions related to airline operations and passenger demand.
+
+### Key SQL Analysis
+- Route-wise Passenger Analysis
 - Seat Utilization Analysis
-- Seasonal Trend Analysis
-- Year-over-Year Passenger Growth
-- Flight Growth Analysis
-- Underutilized Routes Detection
-- Airport Load Factor Analysis
-- Longest Average Distance Routes
+- Most Frequent Routes
+- Origin City Flight Activity
+- Seasonal Passenger Trends
+- Underutilized Routes
 - Most Active Airports
-- Travel Pattern Analysis
-
-Advanced SQL concepts used:
-
-- Common Table Expressions (CTEs)
-- Window Functions (LAG)
-- Aggregate Functions
-- CASE Statements
-- GROUP BY
-- HAVING
-- Date Functions
-- NULLIF
-- ORDER BY
+- Airport-wise Passenger Load Factor
+- Most & Least Busy Months
+- Year-over-Year Passenger Growth
+- Flight Growth Trend Analysis
+- Reduced Demand Detection
+- Underperforming Route Analysis
+- Longest Average Distance Routes
 
 ---
 
-## 📈 Power BI Dashboard
+## 📷 SQL Query Samples
 
-The dashboard consists of three interactive report pages:
+### Seasonal Travel Pattern Analysis
+![SQL 1](images/sql_seasonal_travel.png)
 
-### 1️⃣ Executive Overview
-- KPI Cards
-- Passenger Trend
-- Top Origin Airports
-- Top Destination Airports
-- Interactive Filters
+### Year-over-Year Passenger Growth (CTE + LAG)
+![SQL 2](images/sql_yoy_growth.png)
 
-### 2️⃣ Route Performance Analysis
-- Route Performance
-- Route Distance Analysis
-- Flight Activity
-- Passenger Distribution
-- Geographic Route Visualization
+### Most & Least Busy Months
+![SQL 3](images/sql_busy_months.png)
 
-### 3️⃣ Airport Analytics
-- Airport Ranking
-- Passenger Demand
-- Population vs Passenger Analysis
-- Airport-wise Performance Comparison
+### Flight Route Growth Trend
+![SQL 4](images/sql_route_growth.png)
+
+### Longest Average Distance Routes
+![SQL 5](images/sql_longest_distance.png)
 
 ---
 
-## 🚀 Key Features
-
-- Interactive Dashboard
-- Dynamic Slicers
-- Business KPI Monitoring
-- Multi-page Reporting
-- SQL + Power BI Integration
-- End-to-End Data Analytics Project
+## 📌 Key Insights
+- Passenger traffic remained relatively stable across multiple years.
+- ORD recorded the highest passenger traffic among origin airports.
+- LAS handled the highest passenger traffic among destination airports.
+- Average seat utilization remained around **67.83%**.
+- Several long-distance routes showed comparatively lower flight frequency.
+- Passenger demand and seat capacity were closely aligned across major airports.
+- SQL-based trend analysis helped identify seasonal demand patterns and route performance.
 
 ---
 
 ## 📂 Repository Structure
-
-```text
-Dataset/
-SQL/
-PowerBI/
-Dashboard_Screenshots/
-README.md
-```
-
----
-
-## 👨‍💻 Author
-
-**Md Noorain Wakil**
-
-B.Tech (Computer Science - Data Science)
-
-Data Analytics | SQL | Power BI | Python
