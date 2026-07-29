@@ -1,7 +1,7 @@
 # ✈️ Airline Operations and Passenger Traffic Analysis
 
 ## 📌 Project Overview
-This project analyzes airline operational performance and passenger traffic using **MySQL** for data analysis and **Power BI** for interactive dashboard development. The dataset contains nearly **16,000+ flight records** with information such as passengers, seats, flights, distance, origin and destination airports, cities, and travel dates. SQL was used to clean, aggregate, and analyze the data using joins, CTEs, window functions, date functions, and aggregation techniques. The processed insights were then visualized in Power BI to build an interactive business dashboard for monitoring passenger demand, airport performance, route efficiency, and operational trends.
+This project analyzes airline operational performance and passenger traffic using **MySQL** for data analysis and **Power BI** for interactive dashboard development. The dataset contains nearly **50,000+ flight records** with information such as passengers, seats, flights, distance, origin and destination airports, cities, and travel dates. SQL was used to clean, aggregate, and analyze the data using joins, CTEs, window functions, date functions, and aggregation techniques. The processed insights were then visualized in Power BI to build an interactive business dashboard for monitoring passenger demand, airport performance, route efficiency, and operational trends.
 
 ---
 
