@@ -3,16 +3,31 @@
 ## 📌 Project Overview
 This project analyzes airline operational performance and passenger traffic using **MySQL** for data analysis and **Power BI** for interactive dashboard development. The dataset contains nearly **50,000+ flight records** with information such as passengers, seats, flights, distance, origin and destination airports, cities, and travel dates. SQL was used to clean, aggregate, and analyze the data using joins, CTEs, window functions, date functions, and aggregation techniques. The processed insights were then visualized in Power BI to build an interactive business dashboard for monitoring passenger demand, airport performance, route efficiency, and operational trends.
 
----
 
-## 🛠️ Tech Stack
-- MySQL
-- Power BI
-- SQL
-- DAX
+## 🚀 Skills Demonstrated
+
+### SQL Skills
+- Data Cleaning
+- Aggregate Functions (SUM, AVG, COUNT)
+- GROUP BY & ORDER BY
+- HAVING Clause
+- Date Functions
+- CASE Statements
+- Common Table Expressions (CTEs)
+- Window Functions (LAG)
+- Subqueries
+- Performance-Oriented Business Queries
+
+### Power BI Skills
 - Power Query
-
----
+- DAX Measures
+- KPI Cards
+- Interactive Slicers
+- Drill-down Analysis
+- Dashboard Design
+- Data Modeling
+- Data Visualization
+- Business Intelligence Reporting
 
 ## 📊 Dashboard 1 – Executive Overview
 
