@@ -27,7 +27,7 @@ This dashboard provides a high-level summary of airline operations through KPI c
 
 This dashboard focuses on route-level analysis, including top passenger routes, total flights by route, airport distribution on the map, and the relationship between route distance and flight activity.
 
-![Route Performance Dashboard](<img width="1421" height="810" alt="Screenshot 2026-07-29 135712" src="https://github.com/user-attachments/assets/23581e8c-c74d-4109-8e19-e5944e94ddb8" />
+(<img width="1421" height="810" alt="Screenshot 2026-07-29 135712" src="https://github.com/user-attachments/assets/23581e8c-c74d-4109-8e19-e5944e94ddb8" />
 )
 
 ---
@@ -36,7 +36,7 @@ This dashboard focuses on route-level analysis, including top passenger routes, 
 
 The final dashboard presents advanced business insights such as average passengers per flight, airport ranking over time, passenger demand versus seat capacity, and the relationship between city population and passenger traffic.
 
-![Advanced Analytics Dashboard](<img width="1436" height="788" alt="Screenshot 2026-07-29 135720" src="https://github.com/user-attachments/assets/3b1cbc46-fbf3-4f1d-a1f0-0680c6b14277" />
+(<img width="1436" height="788" alt="Screenshot 2026-07-29 135720" src="https://github.com/user-attachments/assets/3b1cbc46-fbf3-4f1d-a1f0-0680c6b14277" />
 
 ---
 
@@ -65,19 +65,26 @@ The analytical layer of this project was developed entirely in MySQL. SQL querie
 ## 📷 SQL Query Samples
 
 ### Seasonal Travel Pattern Analysis
-![SQL 1](images/sql_seasonal_travel.png)
+<img width="625" height="455" alt="Screenshot 2026-07-29 134956" src="https://github.com/user-attachments/assets/491258d5-a18d-4b63-8d5c-b74e395c5b12" />
+
 
 ### Year-over-Year Passenger Growth (CTE + LAG)
-![SQL 2](images/sql_yoy_growth.png)
+<img width="1147" height="492" alt="Screenshot 2026-07-29 135103" src="https://github.com/user-attachments/assets/9915fb69-5620-47b1-9361-6f258e34cf02" />
+<img width="982" height="258" alt="Screenshot 2026-07-29 135112" src="https://github.com/user-attachments/assets/5ab129c6-62ed-4581-ace7-3571ebe0b242" />
+
 
 ### Most & Least Busy Months
-![SQL 3](images/sql_busy_months.png)
+<img width="920" height="538" alt="Screenshot 2026-07-29 135150" src="https://github.com/user-attachments/assets/7e55d415-c2ba-431f-9579-1b49f111180a" />
+
 
 ### Flight Route Growth Trend
-![SQL 4](images/sql_route_growth.png)
+<img width="1107" height="533" alt="Screenshot 2026-07-29 135418" src="https://github.com/user-attachments/assets/d792bbd9-095e-4c22-b361-9dbed059d27b" />
+<img width="941" height="181" alt="Screenshot 2026-07-29 135429" src="https://github.com/user-attachments/assets/30e79ed6-298e-4576-a9be-75132f8827e0" />
+
 
 ### Longest Average Distance Routes
-![SQL 5](images/sql_longest_distance.png)
+<img width="917" height="527" alt="Screenshot 2026-07-29 135133" src="https://github.com/user-attachments/assets/49cacc20-33f3-435f-9f82-7a777ec3b96c" />
+
 
 ---
 
