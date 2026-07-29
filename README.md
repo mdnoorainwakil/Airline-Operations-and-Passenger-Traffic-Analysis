@@ -27,8 +27,8 @@ This dashboard provides a high-level summary of airline operations through KPI c
 
 This dashboard focuses on route-level analysis, including top passenger routes, total flights by route, airport distribution on the map, and the relationship between route distance and flight activity.
 
-(<img width="1421" height="810" alt="Screenshot 2026-07-29 135712" src="https://github.com/user-attachments/assets/23581e8c-c74d-4109-8e19-e5944e94ddb8" />
-)
+<img width="1421" height="810" alt="Screenshot 2026-07-29 135712" src="https://github.com/user-attachments/assets/23581e8c-c74d-4109-8e19-e5944e94ddb8" />
+
 
 ---
 
@@ -36,7 +36,7 @@ This dashboard focuses on route-level analysis, including top passenger routes, 
 
 The final dashboard presents advanced business insights such as average passengers per flight, airport ranking over time, passenger demand versus seat capacity, and the relationship between city population and passenger traffic.
 
-(<img width="1436" height="788" alt="Screenshot 2026-07-29 135720" src="https://github.com/user-attachments/assets/3b1cbc46-fbf3-4f1d-a1f0-0680c6b14277" />
+<img width="1436" height="788" alt="Screenshot 2026-07-29 135720" src="https://github.com/user-attachments/assets/3b1cbc46-fbf3-4f1d-a1f0-0680c6b14277" />
 
 ---
 
