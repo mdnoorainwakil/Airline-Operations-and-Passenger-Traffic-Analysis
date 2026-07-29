@@ -128,5 +128,7 @@ README.md
 ## 👨‍💻 Author
 
 **Md Noorain Wakil**
+
 B.Tech (Computer Science - Data Science)
+
 Data Analytics | SQL | Power BI | Python
